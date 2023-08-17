@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form-banner img {
+  height: 100%;
+  width: 100%;
+}
+
+.form-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* ============================== loader ==========================*/
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(126, 122, 122);
+  opacity: 0.5;
+}
+
+.loader {
+  height: 48px;
+  border: 5px solid white;
+  width: 48px;
+  border-radius: 50%;
+  border-bottom-color: red;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* ======================== NAVBAR  =======================*/
+.navbar {
+  background-color: maroon !important;
+  color: white !important;
+}
+
+.navbar-brand,
+.nav-link {
+  color: white !important;
+}
